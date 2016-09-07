@@ -1,6 +1,6 @@
 {
-  "name": "passport-openid",
-  "version": "0.4.0",
+  "name": "@atlassian/passport-openid",
+  "version": "0.4.1",
   "description": "OpenID authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-openid.git"
+    "url": "git@github.com:atlassian/passport-openid.git"
   },
   "bugs": {
     "url": "http://github.com/jaredhanson/passport-openid/issues"
@@ -22,6 +22,11 @@
     "email": "jaredhanson@gmail.com",
     "url": "http://www.jaredhanson.net/"
   },
+  "contributors": [{
+      "name": "Frederik Granna",
+      "email": "fgranna@atlassian.com",
+      "url": "http://www.atlassian.com"
+  }],
   "licenses": [
     {
       "type": "MIT",
@@ -31,7 +36,7 @@
   "main": "./lib/passport-openid",
   "dependencies": {
     "passport-strategy": "1.x.x",
-    "openid": "1.x.x"
+    "openid": "^2.0.1"
   },
   "devDependencies": {
     "vows": "^0.8.1"
